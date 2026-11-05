@@ -1,19 +1,23 @@
 # afoli.org
 
-Static website for the Asian Family Office Leadership Institute (AFOLI).
+Website for the Asian Family Office Leadership Institute (AFOLI), hosted on GitHub Pages at https://www.afoli.org.
+Any change committed to `main` goes live within a few minutes.
 
-## Files
-- `index.html` – single-page site (Mission, Our Work, Board, Get Involved, Contact)
-- `styles.css` – dark blue + beige palette (tokens at the top of the file)
-- `favicon.svg` – placeholder "A" monogram; swap for the final AFOLI logo
-- `robots.txt`, `sitemap.xml` – SEO basics
+## Pages
+- `index.html` – English home page
+- `zh/index.html` – Simplified Chinese (简体)
+- `zh-hant/index.html` – Traditional Chinese (繁體)
+- `privacy.html` – privacy policy
 
-## Before launch
-- Jonathan to review all copy (mission text and focus areas are a first draft)
-- Confirm board titles (currently all "Director") and whether to add bios/photos
-- Match exact hex colors to Sophia's pin design if they differ
-- Replace favicon with the final logo
+## Brand
+Colours follow the AFOLI Official Color Reference (tokens at the top of `styles.css`):
+Antique Gold #AD8F54 · Charcoal #2B2B2A · Warm Ivory #FEFCF6 · Soft Black #111111.
+Logo files: `logo.png` (dark), `logo-light.png` (for dark backgrounds), `logo-wordmark.png` (header).
 
-## Deploy
-Option A – Network Solutions hosting: upload all files to the web root (`htdocs`/`public_html`) via the hosting File Manager or SFTP.
-Option B – GitHub Pages: repo Settings → Pages → deploy from `main`, add custom domain `www.afoli.org`, then in Network Solutions DNS add a CNAME `www` → `<username>.github.io` and A records for `@` → 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153.
+## Contact
+Visitors contact AFOLI by email at info@afoli.org (mailto links on each page).
+
+## To do
+- Confirm the official Chinese name (currently 亚洲家族办公室领导力学院) and have a native speaker review the Chinese pages
+- Add Qi Wang's photo and bio
+- Legal review of privacy.html
